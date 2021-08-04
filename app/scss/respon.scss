@@ -6,7 +6,6 @@
             display: block;
         }
     }
-    
     .header__menu {
         position: static;
     }
@@ -49,16 +48,27 @@
     }
 
 
-    @media (max-width: 450px) {
-        .header__title {
-            margin-left: 35px;
-        }
+@media (max-width: 450px) {
+    .header__title {
+        margin-left: 35px;
     }
 
+    
 
+}
   
 
 
+@media (max-width: 380px) {
+    .header__title .buttonSee {
+        font-size: 14px;
+    }
+}
 
 
 
+@media (max-width:365px) {
+    .header__inner-subtitle {
+        margin: 80px 20px;
+    }
+}

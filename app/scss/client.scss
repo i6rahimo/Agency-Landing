@@ -1,0 +1,35 @@
+.client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__wrapper {
+        padding: 73px 347px;
+    }
+    &__title {
+        text-align: center;
+    h2 {
+        font-size: 36px;
+        font-weight: 500;
+
+    }
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        padding: 25px 0 50px 0;
+    }
+}
+    &__corp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        align-self: flex-end;
+        img {
+
+            margin: 0;
+            padding-bottom: 10px;
+        }
+            
+    }
+}
